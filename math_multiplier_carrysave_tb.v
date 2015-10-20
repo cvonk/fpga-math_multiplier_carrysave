@@ -1,5 +1,7 @@
 `timescale 1ns / 1ps
 `default_nettype none
+// (c) 2015, by Coert Vonk
+// http://www.coertvonk.com/technology/logic/fpga-math-verilog-12758/5
 
 module math_multiplier_carrysave_tb;
 
@@ -25,5 +27,6 @@ module math_multiplier_carrysave_tb;
 			   #30 if ( a * b != p )
                 $display("%d * %d != %d", a, b, p );
 					 
+		$display("EOT");
 	end
 endmodule
