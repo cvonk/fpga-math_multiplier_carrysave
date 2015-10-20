@@ -1,0 +1,2 @@
+verilog work "math_multiplier_ma_block.v"
+verilog work "math_multiplier_carrysave.v"
